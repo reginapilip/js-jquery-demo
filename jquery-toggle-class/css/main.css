@@ -1,0 +1,23 @@
+#box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid rgb(16, 12, 75);
+    margin: 20px auto;
+}
+
+.change {
+    background-color: rgb(16, 12, 75);
+    transition: background-color .35s ease-in-out;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 0.5em 1em;
+    border: 1px solid rgb(16, 12, 75);
+    background: rgb(16, 12, 75);
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
